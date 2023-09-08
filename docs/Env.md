@@ -1,5 +1,13 @@
 # lerna使用说明
 
+## 框架编译方法
+```
+git clone https://github.com/node-pinus/pinus.git
+cd pinus
+yarn
+yarn run build
+```
+
 ## 中文手册：https://juejin.cn/post/7136925215388499998
 ## 初次发布可以采用下面两种发布方式：
 
