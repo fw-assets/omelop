@@ -1,6 +1,6 @@
 {
   "name": "omelop-cli",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "description": "omelop command line client for managing omelop",
   "scripts": {
     "build": "tsc",
@@ -32,8 +32,8 @@
   "dependencies": {
     "async": "^3.0.0",
     "colors": "^1.4.0",
-    "omelop-admin": "^2.0.3",
-    "omelop-logger": "^2.0.3",
+    "omelop-admin": "^2.0.6",
+    "omelop-logger": "^2.0.6",
     "optimist": "^0.6.1",
     "pretty-columns": "^1.2.1"
   },
