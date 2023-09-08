@@ -19,13 +19,12 @@
     "gen-api-ref": "node ../../node_modules/typedoc/bin/typedoc --mode file --hideGenerator --excludeExternals --ignoreCompilerErrors --out ../../run/site/public/api-reference/omelop-loader lib/"
   },
   "dependencies": {
-    "@types/node": "^16.3.3",
-    "@types/ws": "^8.5.4",
+    "@types/node": "^18.17.14",
     "cli-color": "^2.0.0",
     "omelop-protobuf": "^1.7.10",
     "omelop-protocol": "^1.7.10",
     "omelop-robot": "^1.7.10",
-    "ws": "^8.12.0"
+    "ws": "^8.14.0"
   },
   "devDependencies": {
     "tslint": "^6.1.3",

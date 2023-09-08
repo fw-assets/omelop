@@ -11,7 +11,7 @@
         "build": "tsc  && node copy"
     },
     "dependencies": {
-        "@types/node": "^12.7.12",
+        "@types/node": "^18.17.14",
         "@types/bluebird": "^3.5.19",
         "omelop": "#",
         "bluebird": "^3.5.1",

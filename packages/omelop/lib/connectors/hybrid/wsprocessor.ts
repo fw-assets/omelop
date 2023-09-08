@@ -1,6 +1,5 @@
 import { Server as HttpServer } from 'http';
 import { EventEmitter } from 'events';
-import * as util from 'util';
 import * as net from 'net';
 import * as WebSocket from 'ws';
 

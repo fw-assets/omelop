@@ -1,6 +1,5 @@
 import * as net from 'net';
 import * as tls from 'tls';
-import * as util from 'util';
 import { EventEmitter } from 'events';
 
 import { HybridSocket } from './hybridsocket';
@@ -9,15 +8,11 @@ import { HandshakeCommand } from './commands/handshake';
 import { HeartbeatCommand } from './commands/heartbeat';
 import * as Kick from './commands/kick';
 import * as coder from './common/coder';
-import { ConnectorComponent } from '../components/connector';
 import { DictionaryComponent } from '../components/dictionary';
 import { ProtobufComponent } from '../components/protobuf';
 import { IComponent } from '../interfaces/IComponent';
 import { omelop } from '../omelop';
 import { IConnector } from '../interfaces/IConnector';
-import { TlsOptions } from 'tls';
-import * as WebSocket from 'ws';
-import { TcpSocket } from './hybrid/tcpsocket';
 import { IHybridSocket } from './hybrid/IHybridSocket';
 
 let curId = 1;

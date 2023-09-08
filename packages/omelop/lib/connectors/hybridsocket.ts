@@ -1,11 +1,8 @@
-import * as util from 'util';
-import * as net from 'net';
 import { EventEmitter } from 'events';
 import { default as handler } from './common/handler';
 import { Package } from 'omelop-protocol';
 import { getLogger } from 'omelop-logger';
 import { ISocket } from '../interfaces/ISocket';
-import * as WebSocket from 'ws';
 import { TcpSocket } from './hybrid/tcpsocket';
 import { IHybridSocket } from './hybrid/IHybridSocket';
 import * as path from 'path';
