@@ -1,6 +1,6 @@
 {
 	"name": "omelop-scheduler",
-	"version": "1.7.11",
+	"version": "1.7.12",
 	"author": "yng <linyngfly@163.com>",
 	"main": "./dist/schedule",
 	"types": "./lib/schedule",
@@ -23,7 +23,7 @@
 		"node": ">=12.9.0"
 	},
 	"dependencies": {
-		"omelop-logger": "^1.7.11"
+		"omelop-logger": "^1.7.12"
 	},
 	"devDependencies": {
 		"@types/node": "^18.17.14",

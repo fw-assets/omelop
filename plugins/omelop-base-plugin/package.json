@@ -1,6 +1,6 @@
 {
   "name": "omelop-base-plugin",
-  "version": "1.7.11",
+  "version": "1.7.12",
   "description": "omelop base plugin",
   "files": [
     "dist",
@@ -22,7 +22,7 @@
   "main": "./dist/index",
   "types": "./src/index",
   "dependencies": {
-    "omelop": "^1.7.11"
+    "omelop": "^1.7.12"
   },
   "devDependencies": {
     "@types/node": "^18.17.14",
