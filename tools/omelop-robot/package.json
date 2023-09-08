@@ -1,6 +1,6 @@
 {
   "name": "omelop-robot",
-  "version": "2.0.4",
+  "version": "2.0.3",
   "private": false,
   "dependencies": {
     "colors": "^1.4.0",
@@ -29,7 +29,7 @@
     "index.ts"
   ],
   "readmeFilename": "README.md",
-  "gitHead": "b5345358edfae6b94f6bd44ecd0692124969721a",
+  "gitHead": "ef0f2b2da446f65c60929d9d7888d761e4c651db",
   "description": "omelop-robot is a simple tool to benchmark the socket.io server's performance.",
   "main": "./dist/index",
   "types": "./index.ts",

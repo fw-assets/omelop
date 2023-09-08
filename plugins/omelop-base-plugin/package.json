@@ -1,6 +1,6 @@
 {
   "name": "omelop-base-plugin",
-  "version": "2.0.4",
+  "version": "2.0.3",
   "description": "omelop base plugin",
   "files": [
     "dist",
@@ -22,7 +22,7 @@
   "main": "./dist/index",
   "types": "./src/index",
   "dependencies": {
-    "omelop": "^2.0.4"
+    "omelop": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^18.17.14",
@@ -30,5 +30,5 @@
     "typescript": "^4.3.5"
   },
   "license": "MIT",
-  "gitHead": "b5345358edfae6b94f6bd44ecd0692124969721a"
+  "gitHead": "ef0f2b2da446f65c60929d9d7888d761e4c651db"
 }

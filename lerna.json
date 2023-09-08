@@ -21,9 +21,5 @@
   "version": "2.0.4",
   "npmClient": "yarn",
   "command": {
-    "publish": {
-      "message": "chore(release): publish",
-      "registry": "https://github.com/fw-assets"
-    }
   }
 }
