@@ -167,7 +167,7 @@ revert 1.4.5 -> 3
 
 分布式部署时，servers 配置有 args参数时，自动添加空格。
 
-Merge pull request #125 from lowkeywx/master
+Merge pull request #125 from lowkeywx/main
  Modify the log description in the application.start function
 
 Merge pull request #126 from wjt382063576/fix_dict

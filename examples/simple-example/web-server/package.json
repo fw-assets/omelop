@@ -1,6 +1,6 @@
 {
   "name": "omelop-simple-example-web-server",
-  "version": "1.7.10",
+  "version": "1.7.11",
   "private": false,
   "dependencies": {
     "express": "4.18.2"

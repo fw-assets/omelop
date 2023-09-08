@@ -1,6 +1,6 @@
 {
   "name": "omelop-robot",
-  "version": "1.7.10",
+  "version": "1.7.11",
   "private": false,
   "dependencies": {
     "colors": "^1.4.0",

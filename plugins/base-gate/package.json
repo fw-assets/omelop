@@ -1,6 +1,6 @@
 {
   "name": "omelop-base-gate",
-  "version": "1.7.10",
+  "version": "1.7.11",
   "description": "omelop base gate plugin",
   "files": [
     "dist",
@@ -28,8 +28,8 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "crc": "^4.3.2",
-    "omelop": "^1.7.10",
-    "omelop-robot-plugin": "^1.7.10",
+    "omelop": "^1.7.11",
+    "omelop-robot-plugin": "^1.7.11",
     "reflect-metadata": "^0.1.10",
     "source-map-support": "^0.5.0"
   },

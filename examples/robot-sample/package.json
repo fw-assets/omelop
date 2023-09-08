@@ -1,6 +1,6 @@
 {
   "name": "omelop-example-robot",
-  "version": "1.7.10",
+  "version": "1.7.11",
   "private": false,
   "description": "A distributed load test framework",
   "repository": {
@@ -21,9 +21,9 @@
   "dependencies": {
     "@types/node": "^18.17.14",
     "cli-color": "^2.0.0",
-    "omelop-protobuf": "^1.7.10",
-    "omelop-protocol": "^1.7.10",
-    "omelop-robot": "^1.7.10",
+    "omelop-protobuf": "^1.7.11",
+    "omelop-protocol": "^1.7.11",
+    "omelop-robot": "^1.7.11",
     "ws": "^8.14.0"
   },
   "devDependencies": {
