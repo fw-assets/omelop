@@ -1,0 +1,34 @@
+{
+    "name": "omelop-protocol",
+    "version": "1.7.10",
+    "private": false,
+    "main": "./dist",
+    "types": "./lib/index",
+    "files": [
+        "dist",
+        "lib",
+        "test",
+        "index.ts"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "yarn run build && node dist/index",
+        "lint": "node_modules/.bin/tslint --format prose -c ../../tslint.json lib/**/*.ts test/**/*.ts",
+        "fix-lint": "node_modules/.bin/tslint --format prose -c ../../tslint.json lib/**/*.ts test/**/*.ts --fix",
+        "test": "yarn run build",
+        "cov": "nyc mocha",
+        "ci": "yarn run test",
+        "gen-api-ref": "node ../../node_modules/typedoc/bin/typedoc --mode file --hideGenerator --excludeExternals --ignoreCompilerErrors --out ../../run/site/public/api-reference/omelop-protocol lib/"
+    },
+    "engines": {
+        "node": ">=12.9.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.20.41",
+        "jscoverage": "0.6.0",
+        "mocha": "6.2.2",
+        "should": "13.2.3",
+        "tslint": "6.1.3",
+        "typescript": "^4.3.5"
+    }
+}

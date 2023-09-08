@@ -1,0 +1,13 @@
+{
+  "name": "boot",
+  "description": "Main app boot component",
+  "dependencies": {
+    "component/emitter": "master",
+    "node-omelop/omelop-protocol": "master",
+    "pinusnode/omelop-protobuf": "*",
+    "pinusnode/omelop-jsclient-websocket": "master"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

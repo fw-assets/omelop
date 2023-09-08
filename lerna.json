@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "packages": [
+    "packages/omelop",
+    "packages/omelop-admin",
+    "packages/omelop-loader",
+    "packages/omelop-logger",
+    "packages/omelop-monitor",
+    "packages/omelop-protobuf",
+    "packages/omelop-protocol",
+    "packages/omelop-rpc",
+    "packages/omelop-scheduler",
+    "tools/*",
+    "plugins/*",
+    "examples/simple-example/*",
+    "examples/ssl-connector/*",
+    "examples/websocket-chat/*",
+    "examples/websocket-chat-ts-run/*",
+    "examples/robot-sample"
+  ],
+  "version": "independent",
+  "npmClient": "yarn"
+}
