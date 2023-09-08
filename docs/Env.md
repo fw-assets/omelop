@@ -2,8 +2,8 @@
 
 ## 框架编译方法
 ```
-git clone https://github.com/node-pinus/pinus.git
-cd pinus
+git clone https://github.com/fw-assets/omelop.git
+cd omelop
 yarn
 yarn run build
 ```
