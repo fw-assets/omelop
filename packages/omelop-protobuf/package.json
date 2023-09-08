@@ -1,6 +1,6 @@
 {
   "name": "omelop-protobuf",
-  "version": "1.7.12",
+  "version": "2.0.2",
   "main": "./dist/protobuf",
   "types": "./lib/protobuf",
   "files": [
