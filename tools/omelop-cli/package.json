@@ -1,6 +1,6 @@
 {
   "name": "omelop-cli",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "description": "omelop command line client for managing omelop",
   "scripts": {
     "build": "tsc",
@@ -32,8 +32,8 @@
   "dependencies": {
     "async": "^3.0.0",
     "colors": "^1.4.0",
-    "omelop-admin": "^2.0.2",
-    "omelop-logger": "^2.0.2",
+    "omelop-admin": "^2.0.1",
+    "omelop-logger": "^2.0.1",
     "optimist": "^0.6.1",
     "pretty-columns": "^1.2.1"
   },
@@ -44,5 +44,6 @@
     "tslint": "6.1.3",
     "typescript": "^4.3.5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "b5345358edfae6b94f6bd44ecd0692124969721a"
 }

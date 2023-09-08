@@ -23,7 +23,7 @@
   "command": {
     "publish": {
       "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
+      "registry": "https://github.com/fw-assets"
     }
   }
 }

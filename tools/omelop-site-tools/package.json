@@ -1,6 +1,6 @@
 {
   "name": "omelop-site-tools",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "homepage": "https://github.com/fw-assets/omelop#readme",
   "license": "MIT",
   "main": "index.js",
@@ -50,5 +50,6 @@
   },
   "scripts": {
     "test": "mocha **/*.test.js --exit"
-  }
+  },
+  "gitHead": "b5345358edfae6b94f6bd44ecd0692124969721a"
 }
