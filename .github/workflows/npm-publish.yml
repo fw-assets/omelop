@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@main
       with:
-        node-version: 12
+        node-version: 18
         registry-url: https://registry.npmjs.org/
     # - run: git remote set-url origin https://fw-assets:${{ secrets.GITHUB_TOKEN }}@github.com/fw-assets/omelop.git
     - run: git checkout origin/main -B main
