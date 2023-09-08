@@ -1,6 +1,6 @@
 {
     "name": "omelop-protocol",
-    "version": "2.0.1",
+    "version": "2.0.4",
     "private": false,
     "main": "./dist",
     "types": "./lib/index",

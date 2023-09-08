@@ -1,6 +1,6 @@
 {
   "name": "omelop-robot-plugin",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "omelop robot plugin",
   "files": [
     "dist",
@@ -22,7 +22,7 @@
   "main": "./dist/index",
   "types": "./src/index",
   "dependencies": {
-    "omelop": "^2.0.1",
+    "omelop": "^2.0.4",
     "yargs": "^17.0.1"
   },
   "devDependencies": {

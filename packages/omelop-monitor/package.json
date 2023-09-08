@@ -1,7 +1,7 @@
 {
     "name": "omelop-monitor",
     "description": "monitor the operating-system and process information",
-    "version": "2.0.1",
+    "version": "2.0.4",
     "main": "./dist/index",
     "types": "./lib/index",
     "files": [
