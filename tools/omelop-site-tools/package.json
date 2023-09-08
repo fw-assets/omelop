@@ -42,7 +42,7 @@
   "devDependencies": {
     "co-mocha": "^1.2.1",
     "coffee": "^4.1.0",
-    "mocha": "^4.0.1",
+    "mocha": "^10.2.0",
     "supertest": "^3.0.0"
   },
   "engines": {
