@@ -1,13 +1,9 @@
 import { getLogger } from 'omelop-logger';
-
 let logger = getLogger('omelop-rpc', 'mqtt2-mailbox');
 import { EventEmitter } from 'events';
 import { Tracer } from '../../util/tracer';
 import * as utils from '../../util/utils';
-
 import { Composer } from '../../util/composer';
-
-import * as util from 'util';
 import * as net from 'net';
 import { Msg } from '../../util/coder';
 import { IMailBox, MailBoxOpts, MailBoxPkg } from '../mailbox';

@@ -1,7 +1,6 @@
 import { getLogger } from 'omelop-logger';
 let logger = getLogger('omelop-rpc', 'blackhole');
 import { EventEmitter } from 'events';
-import * as utils from '../../util/utils';
 import { Tracer } from '../../util/tracer';
 
 export class Blackhole extends EventEmitter {

@@ -1,7 +1,6 @@
 import { getLogger } from 'omelop-logger';
 let logger = getLogger('omelop-rpc', 'failprocess');
 import { constants } from '../util/constants';
-import * as utils from '../util/utils';
 
 export function failureProcess(this: any, code: string, tracer: any, serverId: string, msg: object, opts: { failMode: string }) {
     let cb = tracer && tracer.cb;

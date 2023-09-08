@@ -3,10 +3,8 @@ let logger = getLogger('omelop-rpc', 'mqtt2-acceptor');
 import { EventEmitter } from 'events';
 import { constants } from '../../util/constants';
 import { Tracer } from '../../util/tracer';
-import * as utils from '../../util/utils';
 import * as Coder from '../../util/coder';
 let MqttCon: any = require('mqtt-connection');
-import * as util from 'util';
 import * as net from 'net';
 
 let curId = 1;

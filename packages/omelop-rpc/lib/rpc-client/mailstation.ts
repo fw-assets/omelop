@@ -8,7 +8,6 @@ import {
 } from './mailbox';
 import { constants } from '../util/constants';
 import * as utils from '../util/utils';
-import * as util from 'util';
 import { Tracer } from '../util/tracer';
 
 let STATE_INITED = 1; // station has inited

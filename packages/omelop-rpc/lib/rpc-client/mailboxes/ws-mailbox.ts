@@ -4,8 +4,6 @@ import { EventEmitter } from 'events';
 import { constants } from '../../util/constants';
 import { Tracer } from '../../util/tracer';
 import { io } from 'socket.io-client';
-import * as utils from '../../util/utils';
-import * as util from 'util';
 import { Msg } from '../../util/coder';
 
 export interface MailBoxPkg {

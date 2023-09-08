@@ -4,12 +4,9 @@ import { EventEmitter } from 'events';
 import { constants } from '../../util/constants';
 import { Tracer } from '../../util/tracer';
 let MqttCon: any = require('mqtt-connection');
-import * as utils from '../../util/utils';
 import * as Coder from '../../util/coder';
 import * as util from 'util';
 import * as net from 'net';
-import { Msg } from '../../util/coder';
-import { Stream } from 'stream';
 
 let CONNECT_TIMEOUT = 2000;
 

@@ -1,11 +1,8 @@
 import { EventEmitter } from 'events';
-import * as util from 'util';
 import * as utils from '../../util/utils';
 import * as wsClient from 'ws';
-import * as zlib from 'zlib';
 import { Tracer } from '../../util/tracer';
 import { Msg } from '../../util/coder';
-import { WS2Acceptor } from '../../rpc-server/acceptors/ws2-acceptor';
 
 let DEFAULT_CALLBACK_TIMEOUT = 10 * 1000;
 let DEFAULT_INTERVAL = 50;

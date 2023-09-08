@@ -1,8 +1,5 @@
 import { EventEmitter } from 'events';
-import * as util from 'util';
-import * as utils from '../../util/utils';
 import * as ws from 'ws';
-import * as zlib from 'zlib';
 import { getLogger } from 'omelop-logger';
 let logger = getLogger('omelop-rpc', __filename);
 import { Tracer } from '../../util/tracer';

@@ -4,7 +4,6 @@ import { EventEmitter } from 'events';
 import { constants } from '../../util/constants';
 import { Tracer } from '../../util/tracer';
 let MqttCon: any = require('mqtt-connection');
-import * as utils from '../../util/utils';
 import * as util from 'util';
 import * as net from 'net';
 import { IMailBox, MailBoxTimeoutCallback, MailBoxMessage, MailBoxOpts, MailBoxPkg } from '../mailbox';

@@ -1,12 +1,9 @@
 import { EventEmitter } from 'events';
 import { Tracer } from '../../util/tracer';
-import * as utils from '../../util/utils';
 import { Composer } from '../../util/composer';
-import * as util from 'util';
 import * as net from 'net';
-import * as Coder from '../../util/coder';
 import { AcceptorOpts, IAcceptor, AcceptorCallback } from '../acceptor';
-import { getLogger, Logger } from 'omelop-logger';
+import { getLogger } from 'omelop-logger';
 let logger = getLogger('omelop-rpc', 'tcp-acceptor');
 
 export interface AcceptorPkg {

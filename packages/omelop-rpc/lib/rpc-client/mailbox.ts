@@ -2,11 +2,7 @@
  * Default mailbox factory
  */
 import * as Mailbox from './mailboxes/mqtt-mailbox';
-import { MailBox } from './mailboxes/mqtt-mailbox';
-// let Ws2Mailbox from ('./mailboxes/ws2-mailbox');
-// let WsMailbox from ('./mailboxes/ws-mailbox');
 import {create as tcpMailBoxCreate} from './mailboxes/tcp-mailbox';
-import {EventEmitter} from 'events';
 import {Tracer} from '../util/tracer';
 
 

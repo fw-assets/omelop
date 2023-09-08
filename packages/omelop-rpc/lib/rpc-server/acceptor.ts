@@ -2,7 +2,6 @@ import { MQTTAcceptor } from './acceptors/mqtt-acceptor';
 import { Tracer } from '../util/tracer';
 import { TCPAcceptor } from './acceptors/tcp-acceptor';
 import { Logger } from 'omelop-logger';
-import { EventEmitter } from 'events';
 import { MsgPkg } from './dispatcher';
 import * as Gateway from './gateway';
 // let acceptor from ('./acceptors/ws2-acceptor');

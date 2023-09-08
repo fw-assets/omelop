@@ -1,7 +1,6 @@
 import { ConsistentHash } from '../util/consistentHash';
-import * as utils from '../util/utils';
 import * as crc from 'crc';
-import {RpcMsg, RpcClient, RouteContext, RouteContextClass} from './client';
+import {RpcMsg, RpcClient, RouteContextClass} from './client';
 /**
  * Calculate route info and return an appropriate server id.
  *
