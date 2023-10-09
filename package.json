@@ -8,7 +8,7 @@
 		"omelop-site-tools": "1.7.10",
 		"ts-node": "9.1.1",
 		"tslint": "6.1.3",
-		"typedoc": "0.21.4",
+		"typedoc": "0.25.2",
 		"typescript": "^4.3.5"
 	},
 	"scripts": {
