@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "tslint": "6.1.3",
-    "webpack": "5.88.1"
+    "webpack": "5.89.0"
   },
   "gitHead": "ef0f2b2da446f65c60929d9d7888d761e4c651db"
 }
