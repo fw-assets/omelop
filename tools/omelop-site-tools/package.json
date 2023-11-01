@@ -20,7 +20,7 @@
     "cpy": "^5.0.0",
     "debug": "^2.6.8",
     "gh-pages": "^0.12.0",
-    "hexo": "^3.3.7",
+    "hexo": "^7.0.0",
     "hexo-generator-index": "^0.2.1",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-less": "^0.2.0",
